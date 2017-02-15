@@ -11,29 +11,29 @@ To then enable each thing:
 - Theme :: User Preferences > Theme > Presets dropdown
 - Keyconfig :: User Preferences > Input > Presets dropdown
 - Addons :: each have to be manually enabled in User Preferences > Add-ons.
-Don’t forget to save user settings.
 
-** [[./presets/interface_theme/][Interface theme: ~blender_24x_alpha.xml~]]
+** > [[./presets/interface_theme/][Interface theme]]
+~blender_24x_alpha.xml~
+
 A modified version of the ~blender_24x~ theme included with emacs.
-[[./screenshot-theme.png]]
 
-** Keyconfig: ~+-.blend.py~
+[[./interface_theme.png]]
+
+** > [[./presets/keyconfig/][Keyconfig]]
+~+-.blend.py~
 # todo: keyconfig documentation
 # maybe this should be in the readme in the directory where it is?
 
-** [[./addons][Scripts]]
+** > [[./addons][Scripts]]
 *** ~ui_p-layout-search.py~
-**** Description
 I have previously made a repository for it [[https://github.com/plu5/p-layout-search][here]]. It adds a search popup for switching between layouts.
 **** Usage
-Bind ~wm.layout_search,~ preferably under Screen > Screen (Global). I personally have it bound to <kbd>Alt F1</kbd>.
+Bind ~wm.layout_search~, preferably under Screen > Screen (Global)
 *** ~p-script_console_output.py~
-**** Description
 Run script from text editor and displays the output in console present in the layout. Some of the logic was taken from CoDEmanX addon [[https://blenderartists.org/forum/showthread.php?312821-Run-Script-in-PyConsole-(Menu)][Run Script in PyConsole]], which does something similar except from the console.
 **** Usage
-Bind ~text.script_console_output~, preferrably under Text > Text Generic. I have it bound to <kbd>Shift Alt P</kbd>.
+Bind ~text.script_console_output~, preferrably under Text > Text Generic
 *** ~ui_p-editor-switch-buffer.py~
-**** Description
 Search popup for switching between open files in the text editor.
 **** Usage
-Bind ~wm.editor_switch_buffer~, preferably under Text > Text Generic. I have it bound to <kbd>Alt X</kbd>.
+Bind ~wm.editor_switch_buffer~, preferably under Text > Text Generic
