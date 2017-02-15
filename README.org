@@ -15,7 +15,7 @@ To then enable each thing:
 ** > [[./presets/interface_theme/][Interface theme]]
 ~blender_24x_alpha.xml~
 
-A modified version of the ~blender_24x~ theme included with emacs.
+A modified version of the ~blender_24x~ theme included with blender.
 
 [[./interface_theme.png]]
 
