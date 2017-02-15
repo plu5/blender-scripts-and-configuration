@@ -177,7 +177,7 @@ Sadly a lot of addons bind things for you which interferes with the keyconfig, s
 - [[https://sites.google.com/site/bartiuscrouch/scripts/f2][f2]] (unbind the binding it adds: =3D View > Mesh > Make Edge/Face= that it binds to ~F~)
 *** 3rd party
 - [[https://github.com/dairin0d/enhanced-3d-cursor][Enhanced 3D Cursor]] by dairin0d (unbind action mouse)
-- [[http://blenderartists.org/forum/showthread.php?352527-Mesh-select-mode-pie-menu][Select Mode Pie Menu]] by Stan Pancakes (unbind the binding it adds: =3D View > Mesh > Call Pie Menu= that it binds to ~Right Mouse~)
+- [[http://blenderartists.org/forum/showthread.php?352527-Mesh-select-mode-pie-menu][Select Mode Pie Menu]] by Stan Pancakes
 - [[https://github.com/antoni4040/MultiEdit-Addon][MultiEdit]]
 - [[https://blenderartists.org/forum/showthread.php?331613-ADDON-Wireframe-on-shaded][Wireframe on Shaded Switch]] by stanley82
 - [[./../../addons][p-layout-search]]
