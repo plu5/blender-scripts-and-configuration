@@ -17,7 +17,7 @@ To then enable each thing:
 
 A modified version of the ~blender_24x~ preset.
 
-[[./interface_theme.png]]
+[[./.images/interface_theme.png]]
 
 ** > [[./presets/keyconfig/][Keyconfig]]
 ~+-.blend.py~
@@ -37,3 +37,67 @@ Bind ~text.script_console_output~, preferrably under Text > Text Generic
 Search popup for switching between open files in the text editor.
 **** Usage
 Bind ~wm.editor_switch_buffer~, preferably under Text > Text Generic
+
+-----
+
+** Misc
+*** Other settings
+Only ones I have that are differing from default are listed
+**** Interface
+- View Manipulation: check =Zoom To Mouse Position=, check =Rotate Around Selection=
+- uncheck =Show Splash=
+**** Editing
+- Global Undo: Steps 50
+**** Input
+- Select with: Left
+- Orbit Style: Turntable
+- Zoom Style: Dolly Horizontal
+**** Add-ons
+- 3D View: Enhanced 3D Cursor
+- 3D View: Retopology Tools
+- 3D View: Select Mode Pie Menu
+- Add Mesh: Extra Objects
+- Development: Run Script in PyConsole
+- Development: Script Auto Complete
+- Development: script-console-output
+- Import-Export: GoB
+- Mesh: Align Selection To Gpencil Stroke
+- Mesh: Auto Mirror
+- Mesh: Bsurfaces GPL Edition
+- Mesh: F2
+- Mesh: MultiEdit
+- Mesh: Retopo MT
+- Mesh: Snap_Utilities_Lite
+- Mesh: UV Squares
+- Object: BoolTool
+- Object: Wireframe On Shaded Switch
+- Pie Menu: UI Pie Menu Official
+- Retopology: Ice Tools
+- System: Scene Information
+- User Interface: editor-switch-buffer
+- User Interface: p/layout-search
+**** File
+- set Scripts directory
+**** System
+- Compute Device: CUDA
+- Window Draw Method: check =Region Overlap=
+- Interface Font: Consolas
+- check =International Fonts=
+# Color Picker Type
+
+*** Layouts
+Same as default except:
+**** [[./.images/4-Default.png][Default]]
+***** 3D View
+****** Properties
+******* View
+- Lens: 150
+******* Display
+- Grid Floor: X Y Z
+- Lines: 500
+- Scale: 0.200
+- Subdivisions: 10
+**** [[./.images/7-Render.png][Render]] (new)
+**** [[./.images/8-Scripting.png][Scripting]]
+**** [[./.images/9-UV%20Editing.png][UV Editing]]
+**** [[./.images/10-Video%20Editing.png][Video Editing]]
