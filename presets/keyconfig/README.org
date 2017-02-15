@@ -1,5 +1,4 @@
 * +- Keyconfig Documentation
-# list requisites
 #+begin_html
 <p>
 <kbd>C</kbd> = <kbd>Ctrl</kbd>; <kbd>M</kbd> = <kbd>Alt</kbd>; <kbd>S</kbd> = <kbd>Shift</kbd>
@@ -7,6 +6,8 @@
 #+end_html
 
 Generally follows what you would expect from Maya. Emacs keybindings in the text editor.
+
+Things added by addons are indicated by /italics and an asterisk*/.
 
 | Navigation               |                   |
 |--------------------------+-------------------|
@@ -22,7 +23,7 @@ Generally follows what you would expect from Maya. Emacs keybindings in the text
 | Left view                | ~<numpad 3>~        |
 | Right view               | ~C-<numpad 3>~      |
 | Toggle perspective/ortho | ~M-1~ or ~<numpad-5>~ |
-| Pie menu views           | ~M-`~               |
+| /Pie menu views*/          | ~M-`~               |
 | Top view                 | ~<numpad 7>~        |
 | Bottom view              | ~C-<numpad 7>~      |
 
@@ -33,7 +34,7 @@ Shift + any of the views to align view to active front/back/left/right/top/bot
 | Screen                 |                      |
 |------------------------+----------------------|
 | Next / previous layout | ~C-<left>~ / ~C-<right>~ |
-| Layout search (addon)  | ~M-<f1>~               |
+| /Layout search*/         | ~M-<f1>~               |
 | Toggle quad view       | ~<space>~              |
 | Repeat last            | ~g~                    |
 | Undo                   | ~C-z~                  |
@@ -58,7 +59,7 @@ Shift + any of the views to align view to active front/back/left/right/top/bot
 | Shading                      |     |
 |------------------------------+-----|
 | Wireframe                    |   4 |
-| Toggle wire (addon)          | M-4 |
+| /Toggle wire*/                 | M-4 |
 | Toggle textured/solid        |   5 |
 | Toggle show backface culling | M-5 |
 | Textured                     |   6 |
@@ -96,7 +97,7 @@ Shift + any of the views to align view to active front/back/left/right/top/bot
 | Toggle use snap            | ~S-<tab>~   |
 |                            | hold ~Ctrl~ |
 | Snap to smaller increments | hold ~C-S~  |
-| Snap pie menu              | ~C-S-<tab>~ |
+| /Snap pie menu*/             | ~C-S-<tab>~ |
 
 -----
 
@@ -132,7 +133,7 @@ Shift + any of the views to align view to active front/back/left/right/top/bot
 
 | Edit Mode                      |                                         |
 |--------------------------------+-----------------------------------------|
-| f2 (addon)                     | ~M-f~                                     |
+| /f2*/                            | ~M-f~                                     |
 | Extrude                        | ~M-x~                                     |
 | Duplicate or extrude to cursor | ~C-<MiddleMouse>~                         |
 | Merge                          | ~M-m~                                     |
@@ -144,26 +145,41 @@ Shift + any of the views to align view to active front/back/left/right/top/bot
 
 -----
 
-| Text Editor                     |                     |
-|---------------------------------+---------------------|
-| ← →                             | ~C-f~, ~C-b~, or arrows |
-| ↑ ↓                             | ~C-p~, ~C-n~, or arrows |
-| Home / end                      | Normal or ~C-a~ / ~C-e~ |
-| Pg up / down                    | Normal or ~C-v~ / ~M-v~ |
-| end of buffer                   | ~S-M->~               |
-| start of buffer                 | ~S-M-<~               |
-| Select line                     | ~C-S-l~               |
-| Control size of text            | ~C-<mousewheel>~      |
-| Run script                      | ~M-p~                 |
-| Run script in pyconsole (addon) | ~S-M-p~               |
-| Editor switch buffer (addon)    | ~M-x~                 |
-| Jump                            | ~C-j~                 |
-| Find                            | ~C-S-M-f~             |
-| Find next                       | ~C-s~                 |
-| Replace                         | ~C-r~                 |
-| Autocomplete                    | ~C-<space>~           |
-| Cut (kill)                      | ~C-w~                 |
-| Copy                            | ~M-w~                 |
-| Paste (yank)                    | ~C-y~                 |
-| Save                            | ~M-s~                 |
-| Save as                         | ~C-S-M-s~             |
+| Text Editor              |                     |
+|--------------------------+---------------------|
+| ← →                      | ~C-f~, ~C-b~, or arrows |
+| ↑ ↓                      | ~C-p~, ~C-n~, or arrows |
+| Home / end               | Normal or ~C-a~ / ~C-e~ |
+| Pg up / down             | Normal or ~C-v~ / ~M-v~ |
+| end of buffer            | ~S-M->~               |
+| start of buffer          | ~S-M-<~               |
+| Select line              | ~C-S-l~               |
+| Control size of text     | ~C-<mousewheel>~      |
+| Run script               | ~M-p~                 |
+| /Run script in pyconsole*/ | ~S-M-p~               |
+| /Editor switch buffer*/    | ~M-x~                 |
+| Jump                     | ~C-j~                 |
+| Find                     | ~C-S-M-f~             |
+| Find next                | ~C-s~                 |
+| Replace                  | ~C-r~                 |
+| Autocomplete             | ~C-<space>~           |
+| Cut (kill)               | ~C-w~                 |
+| Copy                     | ~M-w~                 |
+| Paste (yank)             | ~C-y~                 |
+| Save                     | ~M-s~                 |
+| Save as                  | ~C-S-M-s~             |
+
+** Bound addons
+Sadly a lot of addons bind things for you which interferes with the keyconfig, so I have to unbind them manually and save user settings. If you know of a better way to do it please let me know.
+*** Included with blender
+- UI Pie Menu Official (unbind the bindings it adds on ~Tab~ and ~Q~: =3D View > Object Non-modal=)
+- Extra Objects
+- [[https://sites.google.com/site/bartiuscrouch/scripts/f2][f2]] (unbind the binding it adds: =3D View > Mesh > Make Edge/Face= that it binds to ~F~)
+*** 3rd party
+- [[https://github.com/dairin0d/enhanced-3d-cursor][Enhanced 3D Cursor]] by dairin0d (unbind action mouse)
+- [[http://blenderartists.org/forum/showthread.php?352527-Mesh-select-mode-pie-menu][Select Mode Pie Menu]] by Stan Pancakes (unbind the binding it adds: =3D View > Mesh > Call Pie Menu= that it binds to ~Right Mouse~)
+- [[https://github.com/antoni4040/MultiEdit-Addon][MultiEdit]]
+- [[https://blenderartists.org/forum/showthread.php?331613-ADDON-Wireframe-on-shaded][Wireframe on Shaded Switch]] by stanley82
+- [[./../../addons][p-layout-search]]
+- [[./../../addons][script-console-output]]
+- [[./../../addons][editor-switch-buffer]]
