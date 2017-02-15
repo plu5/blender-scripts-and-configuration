@@ -9,7 +9,7 @@ I have mirrored the directory hierarchy under ~<config-folder>/scripts~, so you 
 
 To then enable each thing:
 - Theme :: User Preferences > Theme > Presets dropdown
-- Keyconfig :: User Preferences > Input > Presets dropdown
+- Keyconfig :: User Preferences > Input > dropdown (to the right of Presets dropdown)
 - Addons :: each have to be manually enabled in User Preferences > Add-ons.
 
 ** > [[./presets/interface_theme/][Interface theme]]
