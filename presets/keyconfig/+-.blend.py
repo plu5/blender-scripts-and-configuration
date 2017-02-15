@@ -865,7 +865,6 @@ kmi = km.keymap_items.new('view3d.camera_to_view', 'NUMPAD_0', 'PRESS', ctrl=Tru
 kmi = km.keymap_items.new('wm.context_toggle', 'C', 'PRESS', shift=True) #
 kmi_props_setattr(kmi.properties, 'data_path', 'space_data.lock_camera') #
 kmi = km.keymap_items.new('view3d.cursor3d_enhanced', 'BUTTON5MOUSE', 'PRESS')
-kmi = km.keymap_items.new('object.vertex_object_at_cursor', 'BUTTON4MOUSE', 'PRESS', shift=True)
 kmi = km.keymap_items.new('objects.multiedit_enter_operator', 'F8', 'PRESS')
 kmi = km.keymap_items.new('objects.multiedit_exit_operator', 'F8', 'PRESS', alt=True)
 kmi = km.keymap_items.new('view3d.view_persportho', 'ONE', 'PRESS', alt=True) # because it’s easier
