@@ -1,4 +1,5 @@
 * +- Keyconfig Documentation
+# list requisites
 #+begin_html
 <p>
 <kbd>C</kbd> = <kbd>Ctrl</kbd>; <kbd>M</kbd> = <kbd>Alt</kbd>; <kbd>S</kbd> = <kbd>Shift</kbd>
@@ -118,6 +119,15 @@ Shift + any of the views to align view to active front/back/left/right/top/bot
 | Remove selected from active group | ~S-M-g~   |
 | Remove from all groups            | ~C-S-M-g~ |
 
+| Misc                           |         |
+|--------------------------------+---------|
+| Add call menu                  | ~S-a~     |
+| Make single user call menu     | ~u~       |
+| Make links call menu           | ~C-l~     |
+| Toggle subdivisions (modifier) | ~1~, ~2~, ~3~ |
+| Clear origin                   | ~M-o~     |
+| Set origin                     | ~C-S-M-o~ |
+
 -----
 
 | Edit Mode                      |                                         |
@@ -131,3 +141,29 @@ Shift + any of the views to align view to active front/back/left/right/top/bot
 | Face, edge, vertex call menus  | ~C-f~, ~C-e~, ~C-v~                           |
 | Specials call menu             | ~C-<RightMouse>~                          |
 | Select mode pie menu           | ~<RightMouse>~                            |
+
+-----
+
+| Text Editor                     |                     |
+|---------------------------------+---------------------|
+| ← →                             | ~C-f~, ~C-b~, or arrows |
+| ↑ ↓                             | ~C-p~, ~C-n~, or arrows |
+| Home / end                      | Normal or ~C-a~ / ~C-e~ |
+| Pg up / down                    | Normal or ~C-v~ / ~M-v~ |
+| end of buffer                   | ~S-M->~               |
+| start of buffer                 | ~S-M-<~               |
+| Select line                     | ~C-S-l~               |
+| Control size of text            | ~C-<mousewheel>~      |
+| Run script                      | ~M-p~                 |
+| Run script in pyconsole (addon) | ~S-M-p~               |
+| Editor switch buffer (addon)    | ~M-x~                 |
+| Jump                            | ~C-j~                 |
+| Find                            | ~C-S-M-f~             |
+| Find next                       | ~C-s~                 |
+| Replace                         | ~C-r~                 |
+| Autocomplete                    | ~C-<space>~           |
+| Cut (kill)                      | ~C-w~                 |
+| Copy                            | ~M-w~                 |
+| Paste (yank)                    | ~C-y~                 |
+| Save                            | ~M-s~                 |
+| Save as                         | ~C-S-M-s~             |
