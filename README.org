@@ -21,8 +21,9 @@ A modified version of the ~blender_24x~ theme included with blender.
 
 ** > [[./presets/keyconfig/][Keyconfig]]
 ~+-.blend.py~
-# todo: keyconfig documentation
-# maybe this should be in the readme in the directory where it is?
+
+Optimised for a Maya user /(sentence phrasing attribution: [[https://github.com/shun2522/blender_config][shun2522]])/
+*** Documentation [[./presets/keyconfig][here]]
 
 ** > [[./addons][Scripts]]
 *** ~ui_p-layout-search.py~

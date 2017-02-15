@@ -1,0 +1,133 @@
+* +- Keyconfig Documentation
+#+begin_html
+<p>
+<kbd>C</kbd> = <kbd>Ctrl</kbd>; <kbd>M</kbd> = <kbd>Alt</kbd>; <kbd>S</kbd> = <kbd>Shift</kbd>
+</p>
+#+end_html
+
+Generally follows what you would expect from Maya. Emacs keybindings in the text editor.
+
+| Navigation               |                   |
+|--------------------------+-------------------|
+| Rotate view              | ~M-<LeftMouse>~     |
+| Move view                | ~M-<MiddleMouse>~   |
+| Zoom view                | ~M-<RightMouse>~    |
+| Centre view to cursor    | ~C-<numpad .>~      |
+| Fly navigation           | ~S-f~               |
+| View all                 | ~a~                 |
+| Focus on selected        | ~f~                 |
+| Front view               | ~<numpad 1>~        |
+| Back view                | ~C-<numpad 1>~      |
+| Left view                | ~<numpad 3>~        |
+| Right view               | ~C-<numpad 3>~      |
+| Toggle perspective/ortho | ~M-1~ or ~<numpad-5>~ |
+| Pie menu views           | ~M-`~               |
+| Top view                 | ~<numpad 7>~        |
+| Bottom view              | ~C-<numpad 7>~      |
+
+Shift + any of the views to align view to active front/back/left/right/top/bot
+
+-----
+
+| Screen                 |                      |
+|------------------------+----------------------|
+| Next / previous layout | ~C-<left>~ / ~C-<right>~ |
+| Layout search (addon)  | ~M-<f1>~               |
+| Toggle quad view       | ~<space>~              |
+| Repeat last            | ~g~                    |
+| Undo                   | ~C-z~                  |
+| Redo                   | ~C-S-z~                |
+| Show undo history      | ~C-M-z~                |
+
+-----
+
+| Window              |               |
+|---------------------+---------------|
+| Search menu         | ~C-<space>~     |
+| Duplicate window    | ~C-M-w~         |
+| Reload startup file | ~C-n~           |
+| Save startup file   | ~C-u~           |
+| Open recent         | ~C-S-o~         |
+| Open file           | ~C-o~ or ~<f1>~   |
+| Save file           | ~C-s~           |
+| Save as             | ~C-M-s~ or ~<f2>~ |
+
+-----   
+
+| Shading                      |     |
+|------------------------------+-----|
+| Wireframe                    |   4 |
+| Toggle wire (addon)          | M-4 |
+| Toggle textured/solid        |   5 |
+| Toggle show backface culling | M-5 |
+| Textured                     |   6 |
+| Rendered                     |   7 |
+
+-----
+
+| Transformations                     |                                     |
+|-------------------------------------+-------------------------------------|
+| Manipulators                        | ~q~, ~w~, ~e~, ~r~                          |
+| Precise translate/scale/rotate      | hold ~C-S~ with ~q~, ~w~, ~e~, ~r~            |
+| Quick translate/scale/rotate        | hold ~<MiddleMouse>~ with ~q~, ~w~, ~e~, ~r~. |
+|                                     | just ~<MiddleMouse>~ will translate   |
+| Mirror                              | C-m                                 |
+| Clear translation, rotation, origin | ~M-w~, ~M-e~, ~M-r~, ~M-o~                  |
+| Apply call menu                     | ~C-M-a~                               |
+| Toggle proportional editing         | ~o~                                   |
+
+-----
+
+| Selection                  |                    |
+|----------------------------+--------------------|
+| Select                     | ~<LeftMouse>~        |
+| Deselect                   | ~C-<LeftMouse>~      |
+| Toggle selected/deselected | ~S-<LeftMouse>~      |
+| Border select              | ~<LeftMouse>~ drag   |
+| Lasso select               | ~<MiddleMouse>~ drag |
+| Circle select              | ~S-q~                |
+
+-----
+
+| Snapping                   |           |
+|----------------------------+-----------|
+| Snap call menu             | ~C-S-s~     |
+| Toggle use snap            | ~S-<tab>~   |
+|                            | hold ~Ctrl~ |
+| Snap to smaller increments | hold ~C-S~  |
+| Snap pie menu              | ~C-S-<tab>~ |
+
+-----
+
+| Object Mode                           |       |
+|---------------------------------------+-------|
+| Clear restrict view (show everything) | ~C-S-h~ |
+| Set restrict view (hide selected)     | ~C-h~   |
+| Set restrict view (hide unselected)   | ~M-h~   |
+| Join objects (merge objects)          | ~C-j~   |
+| Duplicate objects                     | ~C-d~   |
+| Duplicate linked                      | ~M-d~   |
+| Call menu: Convert to                 | ~M-c~   |
+
+| Grouping                          |         |
+|-----------------------------------+---------|
+| Select grouped                    | ~S-g~     |
+| Create new group                  | ~C-g~     |
+| Remove from group                 | ~C-M-g~   |
+| Add selected to active group      | ~C-S-g~   |
+| Remove selected from active group | ~S-M-g~   |
+| Remove from all groups            | ~C-S-M-g~ |
+
+-----
+
+| Edit Mode                      |                                         |
+|--------------------------------+-----------------------------------------|
+| f2 (addon)                     | ~M-f~                                     |
+| Extrude                        | ~M-x~                                     |
+| Duplicate or extrude to cursor | ~C-<MiddleMouse>~                         |
+| Merge                          | ~M-m~                                     |
+| Knife topology tool            | ~K-<LeftMouse>~                           |
+|                                | press c to constrain to a straight line |
+| Face, edge, vertex call menus  | ~C-f~, ~C-e~, ~C-v~                           |
+| Specials call menu             | ~C-<RightMouse>~                          |
+| Select mode pie menu           | ~<RightMouse>~                            |
