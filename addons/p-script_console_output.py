@@ -3,7 +3,7 @@ bl_info = {
     "author": "+-",
     "version": (1, 0),
     "blender": (2, 78, 0),
-    "description": "Run script from text editor and displays the output in console present in the layout. Some of the logic was taken from CoDEmanX addon Run Script in PyConsole.",
+    "description": "Run script from text editor and display the output in console present in the layout. Some of the logic was taken from CoDEmanX addon Run Script in PyConsole.",
     "location": "Bind `text.script_console_output', preferrably under Text > Text Generic",
     "warning": "",
     "wiki_url": "",

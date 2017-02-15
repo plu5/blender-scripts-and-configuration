@@ -10,7 +10,7 @@ I have mirrored the directory hierarchy under ~<config-folder>/scripts~, so you 
 To then enable each thing:
 - Theme :: User Preferences > Theme > Presets dropdown
 - Keyconfig :: User Preferences > Input > dropdown (to the right of Presets dropdown)
-- Addons :: each have to be manually enabled in User Preferences > Add-ons.
+- Addons :: each has to be manually enabled in User Preferences > Add-ons.
 
 ** > [[./presets/interface_theme/][Interface theme]]
 ~blender_24x_alpha.xml~
@@ -30,7 +30,7 @@ I have previously made a repository for it [[https://github.com/plu5/p-layout-se
 **** Usage
 Bind ~wm.layout_search~, preferably under Screen > Screen (Global)
 *** ~p-script_console_output.py~
-Run script from text editor and displays the output in console present in the layout. Some of the logic was taken from CoDEmanX addon [[https://blenderartists.org/forum/showthread.php?312821-Run-Script-in-PyConsole-(Menu)][Run Script in PyConsole]], which does something similar except from the console.
+Run script from text editor and display the output in console present in the layout. Some of the logic was taken from CoDEmanX addon [[https://blenderartists.org/forum/showthread.php?312821-Run-Script-in-PyConsole-(Menu)][Run Script in PyConsole]], which does something similar except from the console.
 **** Usage
 Bind ~text.script_console_output~, preferrably under Text > Text Generic
 *** ~ui_p-editor-switch-buffer.py~
