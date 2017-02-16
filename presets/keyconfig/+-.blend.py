@@ -636,7 +636,6 @@ kmi = km.keymap_items.new('object.origin_set', 'C', 'PRESS', shift=True, ctrl=Tr
 # Map 3D View
 km = kc.keymaps.new('3D View', space_type='VIEW_3D', region_type='WINDOW', modal=False)
 
-kmi = km.keymap_items.new('bear.align_to_gpencil', 'LEFTMOUSE', 'DOUBLE_CLICK', shift=True)
 kmi = km.keymap_items.new('view3d.cursor3d', 'BUTTON5MOUSE', 'PRESS')
 kmi.active = False
 kmi = km.keymap_items.new('view3d.rotate', 'LEFTMOUSE', 'PRESS', alt=True)
