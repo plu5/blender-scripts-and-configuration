@@ -64,17 +64,19 @@ Things added by addons are indicated by /italics and an asterisk*/.
 | /MultiEdit exit*/      | ~M-<f8>~            |
 | /Enhanced Set Cursor*/ | ~<mouse5>~ or ~<f10>~ |
 
-| Transformations                     |                                            |
-|-------------------------------------+--------------------------------------------|
-| Manipulators                        | ~q~, ~w~, ~e~, ~r~                                 |
-| Precise translate/scale/rotate      | ~C-S~ with ~w~, ~e~, ~r~                           |
-| Quick translate                     | drag ~<MiddleMouse>~                         |
-| Quick scale/rotate                  | press ~e~, ~r~ with ~<MiddleMouse>~, then let go |
-|                                     | of key and keep dragging ~<MiddleMouse>.~    |
-| Mirror                              | ~C-m~                                        |
-| Clear translation, rotation, origin | ~M-w~, ~M-e~, ~M-r~, ~M-o~                         |
-| Apply call menu                     | ~C-M-a~                                      |
-| Toggle proportional editing         | ~o~                                          |
+| Transformations                    |                                            |
+|------------------------------------+--------------------------------------------|
+| Manipulators                       | ~q~, ~w~, ~e~, ~r~                                 |
+| Precise translate/rotate/scale     | ~C-S~ with ~w~, ~e~, ~r~                           |
+| Quick translate                    | drag ~<MiddleMouse>~                         |
+| Quick rotate/scale                 | press ~e~, ~r~ with ~<MiddleMouse>~, then let go |
+|                                    | of key and keep dragging ~<MiddleMouse>.~    |
+| Mirror                             | ~C-m~                                        |
+| Clear translation, rotation, scale | ~M-w~, ~M-e~, ~M-r~                              |
+| Clear origin                       | ~M-o~                                        |
+| Set origin                         | ~C-S-M-o~                                    |
+| Apply call menu                    | ~C-M-a~                                      |
+| Toggle proportional editing        | ~o~                                          |
 
 Right click to cancel operations.
 
@@ -105,8 +107,6 @@ Right click to cancel operations.
 | Make single user call menu     | ~u~       |
 | Make links call menu           | ~C-l~     |
 | Toggle subdivisions (modifier) | ~1~, ~2~, ~3~ |
-| Clear origin                   | ~M-o~     |
-| Set origin                     | ~C-S-M-o~ |
 
 -----
 =3D View > Mesh=
