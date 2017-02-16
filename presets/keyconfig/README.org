@@ -143,6 +143,7 @@ Right click to cancel operations.
 | Next / previous layout | ~C-<left>~ / ~C-<right>~ |
 | /Layout search*/         | ~M-<f1>~               |
 | Toggle quad view       | ~<space>~              |
+| Toggle console         | ~M-<f2>~               |
 | Toggle Header          | ~M-<f9>~               |
 | Render                 | ~<f12>~                |
 | Render animation       | ~C-<f12>~              |
