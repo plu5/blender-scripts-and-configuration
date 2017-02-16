@@ -9,52 +9,28 @@ Generally follows what you would expect from Maya. Emacs keybindings in the text
 
 Things added by addons are indicated by /italics and an asterisk*/.
 
-| Navigation               |                   |
-|--------------------------+-------------------|
-| Rotate view              | ~M-<LeftMouse>~     |
-| Move view                | ~M-<MiddleMouse>~   |
-| Zoom view                | ~M-<RightMouse>~    |
-| Centre view to cursor    | ~C-<numpad .>~      |
-| Fly navigation           | ~S-f~               |
-| View all                 | ~a~                 |
-| Focus on selected        | ~f~                 |
-| Front view               | ~<numpad 1>~        |
-| Back view                | ~C-<numpad 1>~      |
-| Left view                | ~<numpad 3>~        |
-| Right view               | ~C-<numpad 3>~      |
-| Toggle perspective/ortho | ~M-1~ or ~<numpad-5>~ |
-| /Pie menu views*/          | ~M-`~               |
-| Top view                 | ~<numpad 7>~        |
-| Bottom view              | ~C-<numpad 7>~      |
-
-Shift + any of the views to align view to active front/back/left/right/top/bot
-
 -----
-
-| Screen                 |                      |
-|------------------------+----------------------|
-| Next / previous layout | ~C-<left>~ / ~C-<right>~ |
-| /Layout search*/         | ~M-<f1>~               |
-| Toggle quad view       | ~<space>~              |
-| Repeat last            | ~g~                    |
-| Undo                   | ~C-z~                  |
-| Redo                   | ~C-S-z~                |
-| Show undo history      | ~C-M-z~                |
-
------
-
-| Window              |               |
-|---------------------+---------------|
-| Search menu         | ~C-<space>~     |
-| Duplicate window    | ~C-M-w~         |
-| Reload startup file | ~C-n~           |
-| Save startup file   | ~C-u~           |
-| Open recent         | ~C-S-o~         |
-| Open file           | ~C-o~ or ~<f1>~   |
-| Save file           | ~C-s~           |
-| Save as             | ~C-M-s~ or ~<f2>~ |
-
------   
+=3D View > 3D View (Global)=
+| Navigation                              |                          |
+|-----------------------------------------+--------------------------|
+| Rotate view                             | ~M-<LeftMouse>~            |
+| Move view                               | ~M-<MiddleMouse>~          |
+| Zoom view                               | ~M-<RightMouse>~           |
+| Centre view to cursor                   | ~C-<numpad .>~             |
+| Fly navigation                          | ~S-f~                      |
+| View all                                | ~a~                        |
+| Focus on selected                       | ~f~                        |
+| Front view                              | ~<numpad 1>~               |
+| Back view                               | ~C-<numpad 1>~             |
+| Left view                               | ~<numpad 3>~               |
+| Right view                              | ~C-<numpad 3>~             |
+| Toggle perspective/ortho                | ~M-1~ or ~<numpad-5>~        |
+| /Pie menu views*/                         | ~M-`~                      |
+| Top view                                | ~<numpad 7>~               |
+| Bottom view                             | ~C-<numpad 7>~             |
+| Align view to active front/back/left... | Shift + any of the views |
+| Align camera to view                    | ~C-M-<numpad 9~            |
+| Toggle lock camera to view              | ~S-c~                      |
 
 | Shading                      |     |
 |------------------------------+-----|
@@ -65,21 +41,6 @@ Shift + any of the views to align view to active front/back/left/right/top/bot
 | Textured                     |   6 |
 | Rendered                     |   7 |
 
------
-
-| Transformations                     |                                     |
-|-------------------------------------+-------------------------------------|
-| Manipulators                        | ~q~, ~w~, ~e~, ~r~                          |
-| Precise translate/scale/rotate      | hold ~C-S~ with ~q~, ~w~, ~e~, ~r~            |
-| Quick translate/scale/rotate        | hold ~<MiddleMouse>~ with ~q~, ~w~, ~e~, ~r~. |
-|                                     | just ~<MiddleMouse>~ will translate   |
-| Mirror                              | C-m                                 |
-| Clear translation, rotation, origin | ~M-w~, ~M-e~, ~M-r~, ~M-o~                  |
-| Apply call menu                     | ~C-M-a~                               |
-| Toggle proportional editing         | ~o~                                   |
-
------
-
 | Selection                  |                    |
 |----------------------------+--------------------|
 | Select                     | ~<LeftMouse>~        |
@@ -89,8 +50,6 @@ Shift + any of the views to align view to active front/back/left/right/top/bot
 | Lasso select               | ~<MiddleMouse>~ drag |
 | Circle select              | ~S-q~                |
 
------
-
 | Snapping                   |           |
 |----------------------------+-----------|
 | Snap call menu             | ~C-S-s~     |
@@ -99,8 +58,28 @@ Shift + any of the views to align view to active front/back/left/right/top/bot
 | Snap to smaller increments | hold ~C-S~  |
 | /Snap pie menu*/             | ~C-S-<tab>~ |
 
------
+| Misc                 |                   |
+|----------------------+-------------------|
+| /MultiEdit enter*/     | ~<f8>~              |
+| /MultiEdit exit*/      | ~M-<f8>~            |
+| /Enhanced Set Cursor*/ | ~<mouse5>~ or ~<f10>~ |
 
+| Transformations                     |                                               |
+|-------------------------------------+-----------------------------------------------|
+| Manipulators                        | ~q~, ~w~, ~e~, ~r~                                    |
+| Precise translate/scale/rotate      | ~C-S~ with ~w~, ~e~, ~r~                              |
+| Quick translate                     | drag ~<MiddleMouse>~                            |
+| Quick scale/rotate                  | press ~w~, ~e~, ~r~ with ~<MiddleMouse>~, then let go |
+|                                     | of key and keep dragging ~<MiddleMouse>.~       |
+| Mirror                              | ~C-m~                                           |
+| Clear translation, rotation, origin | ~M-w~, ~M-e~, ~M-r~, ~M-o~                            |
+| Apply call menu                     | ~C-M-a~                                         |
+| Toggle proportional editing         | ~o~                                             |
+
+Right click to cancel operations.
+
+-----
+=3D View > Object Mode=
 | Object Mode                           |       |
 |---------------------------------------+-------|
 | Clear restrict view (show everything) | ~C-S-h~ |
@@ -130,7 +109,7 @@ Shift + any of the views to align view to active front/back/left/right/top/bot
 | Set origin                     | ~C-S-M-o~ |
 
 -----
-
+=3D View > Mesh=
 | Edit Mode                      |                                         |
 |--------------------------------+-----------------------------------------|
 | /f2*/                            | ~M-f~                                     |
@@ -144,7 +123,41 @@ Shift + any of the views to align view to active front/back/left/right/top/bot
 | Select mode pie menu           | ~<RightMouse>~                            |
 
 -----
+=Window=
+| Window              |               |
+|---------------------+---------------|
+| Search menu         | ~C-<space>~     |
+| Duplicate window    | ~C-M-w~         |
+| Reload startup file | ~C-n~           |
+| Save startup file   | ~C-u~           |
+| Open recent         | ~C-S-o~         |
+| Open file           | ~C-o~ or ~<f1>~   |
+| Save file           | ~C-s~           |
+| Save as             | ~C-M-s~ or ~<f2>~ |
 
+-----
+=Screen=
+| Screen                 |                      |
+|------------------------+----------------------|
+| Show user preferences  | ~C-M-u~                |
+| Next / previous layout | ~C-<left>~ / ~C-<right>~ |
+| /Layout search*/         | ~M-<f1>~               |
+| Toggle quad view       | ~<space>~              |
+| Toggle Header          | ~M-<f9>~               |
+| Render                 | ~<f12>~                |
+| Render animation       | ~C-<f12>~              |
+| Toggle render view     | ~<f11>~                |
+
+| History           |       |
+|-------------------+-------|
+| Repeat last       | ~g~     |
+| Undo              | ~C-z~   |
+| Redo              | ~C-S-z~ |
+| Show undo history | ~C-M-z~ |
+
+-----
+
+=Text=
 | Text Editor              |                     |
 |--------------------------+---------------------|
 | ← →                      | ~C-f~, ~C-b~, or arrows |
