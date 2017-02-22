@@ -24,10 +24,11 @@ Things added by addons are indicated by /italics and an asterisk*/.
 | Back view                               | ~C-<numpad 1>~             |
 | Left view                               | ~<numpad 3>~               |
 | Right view                              | ~C-<numpad 3>~             |
-| Toggle perspective/ortho                | ~M-1~ or ~<numpad-5>~        |
-| /Pie menu views*/                         | ~M-`~                      |
 | Top view                                | ~<numpad 7>~               |
 | Bottom view                             | ~C-<numpad 7>~             |
+| Camera view                             | ~<numpad 0>~               |
+| Toggle perspective/ortho                | ~M-1~ or ~<numpad-5>~        |
+| /Pie menu views*/                         | ~M-`~                      |
 | Align view to active front/back/left... | Shift + any of the views |
 | Align camera to view                    | ~C-M-<numpad 0>~           |
 | Toggle lock camera to view              | ~S-c~                      |
