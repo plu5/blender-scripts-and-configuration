@@ -101,6 +101,8 @@ kmi = km.keymap_items.new('screen.screen_full_area', 'SPACE', 'PRESS', shift=Tru
 kmi = km.keymap_items.new('screen.screenshot', 'F3', 'PRESS', ctrl=True)
 kmi = km.keymap_items.new('screen.screencast', 'F3', 'PRESS', alt=True)
 kmi = km.keymap_items.new('screen.region_quadview', 'SPACE', 'PRESS')
+kmi = km.keymap_items.new('wm.context_toggle', 'SPACE', 'PRESS', ctrl=True, shift=True)
+kmi_props_setattr(kmi.properties, 'data_path', 'region_data.show_sync_view')
 kmi = km.keymap_items.new('screen.repeat_history', 'F3', 'PRESS')
 kmi = km.keymap_items.new('screen.repeat_last', 'G', 'PRESS')
 kmi = km.keymap_items.new('screen.region_flip', 'F5', 'PRESS')

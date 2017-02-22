@@ -70,7 +70,7 @@ Things added by addons are indicated by /italics and an asterisk*/.
 | Precise translate/rotate/scale     | ~C-S~ with ~w~, ~e~, ~r~                           |
 | Quick translate                    | drag ~<MiddleMouse>~                         |
 | Quick rotate/scale                 | press ~e~, ~r~ with ~<MiddleMouse>~, then let go |
-|                                    | of key and keep dragging ~<MiddleMouse>.~    |
+|                                    | of key and keep dragging ~<MiddleMouse>~     |
 | Mirror                             | ~C-m~                                        |
 | Clear translation, rotation, scale | ~M-w~, ~M-e~, ~M-r~                              |
 | Clear origin                       | ~M-o~                                        |
@@ -137,17 +137,18 @@ Right click to cancel operations.
 
 -----
 =Screen=
-| Screen                 |                      |
-|------------------------+----------------------|
-| Show user preferences  | ~C-M-u~                |
-| Next / previous layout | ~C-<left>~ / ~C-<right>~ |
-| /Layout search*/         | ~M-<f1>~               |
-| Toggle quad view       | ~<space>~              |
-| Toggle console         | ~M-<f2>~               |
-| Toggle Header          | ~M-<f9>~               |
-| Render                 | ~<f12>~                |
-| Render animation       | ~C-<f12>~              |
-| Toggle render view     | ~<f11>~                |
+| Screen                                |                      |
+|---------------------------------------+----------------------|
+| Show user preferences                 | ~C-M-u~                |
+| Next / previous layout                | ~C-<left>~ / ~C-<right>~ |
+| /Layout search*/                        | ~M-<f1>~               |
+| Toggle quad view                      | ~<space>~              |
+| Toggle sync side views (in quad view) | ~C-S-<space>~          |
+| Toggle console                        | ~M-<f2>~               |
+| Toggle Header                         | ~M-<f9>~               |
+| Render                                | ~<f12>~                |
+| Render animation                      | ~C-<f12>~              |
+| Toggle render view                    | ~<f11>~                |
 
 | History           |       |
 |-------------------+-------|
