@@ -670,6 +670,7 @@ kmi_props_setattr(kmi.properties, 'center', False)
 
 kmi = km.keymap_items.new('view3d.viewnumpad', 'NUMPAD_0', 'PRESS')
 kmi_props_setattr(kmi.properties, 'type', 'CAMERA')
+kmi = km.keymap_items.new('view3d.object_as_camera', 'NUMPAD_0', 'PRESS', ctrl=True)
 kmi = km.keymap_items.new('view3d.viewnumpad', 'NUMPAD_1', 'PRESS')
 kmi_props_setattr(kmi.properties, 'type', 'FRONT')
 kmi = km.keymap_items.new('view3d.view_orbit', 'NUMPAD_2', 'PRESS')
