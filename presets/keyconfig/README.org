@@ -29,7 +29,7 @@ Things added by addons are indicated by /italics and an asterisk*/.
 | Top view                                | ~<numpad 7>~               |
 | Bottom view                             | ~C-<numpad 7>~             |
 | Align view to active front/back/left... | Shift + any of the views |
-| Align camera to view                    | ~C-M-<numpad 9~            |
+| Align camera to view                    | ~C-M-<numpad 0>~           |
 | Toggle lock camera to view              | ~S-c~                      |
 
 | Shading                      |     |
