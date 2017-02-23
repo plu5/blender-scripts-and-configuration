@@ -186,6 +186,8 @@ Right click to cancel operations.
 | Paste (yank)             | ~C-y~                 |
 | Save                     | ~M-s~                 |
 | Save as                  | ~C-S-M-s~             |
+| Comment                  | ~M-;~                 |
+| Uncomment                | ~S-M-;~               |
 
 ** Bound addons
 Sadly a lot of addons bind things for you which interferes with the keyconfig, so I have to unbind them manually and save user settings. If you know of a better way to do it please let me know.
