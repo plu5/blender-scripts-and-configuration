@@ -8,6 +8,7 @@
 Generally follows what you would expect from Maya. Emacs keybindings in the text editor.
 
 Things added by addons are indicated by /italics and an asterisk*/.
+Bindings that are the same as default are *bold*.
 
 -----
 =3D View > 3D View (Global)=
@@ -19,30 +20,30 @@ Things added by addons are indicated by /italics and an asterisk*/.
 | Centre view to cursor                   | ~C-<numpad .>~             |
 | Fly navigation                          | ~S-f~                      |
 | View all                                | ~a~                        |
-| Focus on selected                       | ~f~                        |
-| Front view                              | ~<numpad 1>~               |
-| Back view                               | ~C-<numpad 1>~             |
-| Left view                               | ~<numpad 3>~               |
-| Right view                              | ~C-<numpad 3>~             |
-| Top view                                | ~<numpad 7>~               |
-| Bottom view                             | ~C-<numpad 7>~             |
-| Camera view                             | ~<numpad 0>~               |
-| Align active object as camera           | ~C-<numpad 0>~             |
+| View selected (Focus on selected)       | ~f~                        |
+| *Front view*                              | ~<numpad 1>~               |
+| *Back view*                               | ~C-<numpad 1>~             |
+| *Left view*                               | ~<numpad 3>~               |
+| *Right view*                              | ~C-<numpad 3>~             |
+| *Top view*                                | ~<numpad 7>~               |
+| *Bottom view*                             | ~C-<numpad 7>~             |
+| *Align view to active front/back/left...* | Shift + any of the views |
+| *Camera view*                             | ~<numpad 0>~               |
+| *Set active object as camera*             | ~C-<numpad 0>~             |
 | (useful if you have multiple cameras)   |                          |
 | Toggle perspective/ortho                | ~M-1~ or ~<numpad-5>~        |
 | /Pie menu views*/                         | ~M-`~                      |
-| Align view to active front/back/left... | Shift + any of the views |
-| Align camera to view                    | ~C-M-<numpad 0>~           |
+| *Align camera to view*                    | ~C-M-<numpad 0>~           |
 | Toggle lock camera to view              | ~S-c~                      |
 
 | Shading                      |     |
 |------------------------------+-----|
-| Wireframe                    |   4 |
-| /Toggle wire*/                 | M-4 |
-| Toggle textured/solid        |   5 |
-| Toggle show backface culling | M-5 |
-| Textured                     |   6 |
-| Rendered                     |   7 |
+| Wireframe                    |   ~4~ |
+| /Toggle wire*/                 | ~M-4~ |
+| Toggle textured/solid        |   ~5~ |
+| Toggle show backface culling | ~M-5~ |
+| Textured                     |   ~6~ |
+| Rendered                     |   ~7~ |
 
 | Selection                  |                    |
 |----------------------------+--------------------|
@@ -56,9 +57,9 @@ Things added by addons are indicated by /italics and an asterisk*/.
 | Snapping                   |           |
 |----------------------------+-----------|
 | Snap call menu             | ~C-S-s~     |
-| Toggle use snap            | ~S-<tab>~   |
+| *Toggle use snap*            | ~S-<tab>~   |
 |                            | hold ~Ctrl~ |
-| Snap to smaller increments | hold ~C-S~  |
+| *Snap to smaller increments* | hold ~C-S~  |
 | /Snap pie menu*/             | ~C-S-<tab>~ |
 
 | Misc                 |                   |
@@ -74,12 +75,13 @@ Things added by addons are indicated by /italics and an asterisk*/.
 | Quick translate                    | drag ~<MiddleMouse>~                         |
 | Quick rotate/scale                 | press ~e~, ~r~ with ~<MiddleMouse>~, then let go |
 |                                    | of key and keep dragging ~<MiddleMouse>~     |
-| Mirror                             | ~C-m~                                        |
+| *Mirror*                             | ~C-m~                                        |
 | Clear translation, rotation, scale | ~M-w~, ~M-e~, ~M-r~                              |
-| Clear origin                       | ~M-o~                                        |
-| Set origin                         | ~C-S-M-o~                                    |
+| *Clear origin*                       | ~M-o~                                        |
+| *Set origin*                         | ~C-S-M-c~                                    |
 | Apply call menu                    | ~C-M-a~                                      |
-| Toggle proportional editing        | ~o~                                          |
+| *Toggle proportional editing*        | ~o~                                          |
+# this is actually slightly different, factory uses context_toggle rather than context_toggle_enum   
 
 Right click to cancel operations.
 
@@ -90,75 +92,76 @@ Right click to cancel operations.
 | Clear restrict view (show everything) | ~C-S-h~ |
 | Set restrict view (hide selected)     | ~C-h~   |
 | Set restrict view (hide unselected)   | ~M-h~   |
-| Join objects (merge objects)          | ~C-j~   |
+| *Join objects* (merge objects)          | ~C-j~   |
 | Duplicate objects                     | ~C-d~   |
-| Duplicate linked                      | ~M-d~   |
-| Call menu: Convert to                 | ~M-c~   |
+| *Duplicate linked*                      | ~M-d~   |
+| *Call menu: Convert to*                 | ~M-c~   |
 
 | Grouping                          |         |
 |-----------------------------------+---------|
-| Select grouped                    | ~S-g~     |
-| Create new group                  | ~C-g~     |
-| Remove from group                 | ~C-M-g~   |
-| Add selected to active group      | ~C-S-g~   |
-| Remove selected from active group | ~S-M-g~   |
-| Remove from all groups            | ~C-S-M-g~ |
+| *Select grouped*                    | ~S-g~     |
+| *Create new group*                  | ~C-g~     |
+| *Remove from group*                 | ~C-M-g~   |
+| *Add selected to active group*      | ~C-S-g~   |
+| *Remove selected from active group* | ~S-M-g~   |
+| *Remove from all groups*            | ~C-S-M-g~ |
 
 | Misc                           |         |
 |--------------------------------+---------|
-| Add call menu                  | ~S-a~     |
-| Make single user call menu     | ~u~       |
-| Make links call menu           | ~C-l~     |
+| *Add call menu*                  | ~S-a~     |
+| *Make single user call menu*     | ~u~       |
+| *Make links call menu*           | ~C-l~     |
 | Toggle subdivisions (modifier) | ~1~, ~2~, ~3~ |
 
 -----
 =3D View > Mesh=
-| Edit Mode                      |                                         |
-|--------------------------------+-----------------------------------------|
-| /f2*/                            | ~M-f~                                     |
-| Extrude                        | ~M-x~                                     |
-| Duplicate or extrude to cursor | ~C-<MiddleMouse>~                         |
-| Merge                          | ~M-m~                                     |
-| Knife topology tool            | ~K-<LeftMouse>~                           |
-|                                | press c to constrain to a straight line |
-| Face, edge, vertex call menus  | ~C-f~, ~C-e~, ~C-v~                           |
-| Specials call menu             | ~C-<RightMouse>~                          |
-| Select mode pie menu           | ~<RightMouse>~                            |
+| Edit Mode                           |                                         |
+|-------------------------------------+-----------------------------------------|
+| /f2*/                                 | ~M-f~                                     |
+| Extrude                             | ~M-x~                                     |
+| Duplicate or extrude to cursor      | ~C-<MiddleMouse>~                         |
+| *Merge*                               | ~M-m~                                     |
+| Knife topology tool                 | ~K-<LeftMouse>~                           |
+|                                     | press c to constrain to a straight line |
+| *Face, edge, vertex call menus*       | ~C-f~, ~C-e~, ~C-v~                           |
+| Specials call menu                  | ~C-<RightMouse>~                          |
+| /Select mode pie menu*/               | ~<RightMouse>~                            |
+| *Loop cut and slide* (add edge loops) | ~C-r~                                     |
 
 -----
 =Window=
 | Window              |               |
 |---------------------+---------------|
 | Search menu         | ~C-<space>~     |
-| Duplicate window    | ~C-M-w~         |
-| Reload startup file | ~C-n~           |
-| Save startup file   | ~C-u~           |
-| Open recent         | ~C-S-o~         |
-| Open file           | ~C-o~ or ~<f1>~   |
-| Save file           | ~C-s~           |
-| Save as             | ~C-M-s~ or ~<f2>~ |
+| *Duplicate window*    | ~C-M-w~         |
+| *Reload startup file* | ~C-n~           |
+| *Save startup file*   | ~C-u~           |
+| *Open recent*         | ~C-S-o~         |
+| *Open file*           | ~C-o~ or ~<f1>~   |
+| *Save file*           | ~C-s~           |
+| *Save as*             | ~C-M-s~ or ~<f2>~ |
 
 -----
 =Screen=
 | Screen                                |                      |
 |---------------------------------------+----------------------|
-| Show user preferences                 | ~C-M-u~                |
-| Next / previous layout                | ~C-<left>~ / ~C-<right>~ |
+| *Show user preferences*                 | ~C-M-u~                |
+| *Next / previous layout*                | ~C-<left>~ / ~C-<right>~ |
 | /Layout search*/                        | ~M-<f1>~               |
 | Toggle quad view                      | ~<space>~              |
 | Toggle sync side views (in quad view) | ~C-S-<space>~          |
 | Toggle console                        | ~M-<f2>~               |
-| Toggle Header                         | ~M-<f9>~               |
-| Render                                | ~<f12>~                |
-| Render animation                      | ~C-<f12>~              |
-| Toggle render view                    | ~<f11>~                |
+| *Toggle Header*                         | ~M-<f9>~               |
+| *Render*                                | ~<f12>~                |
+| *Render animation*                      | ~C-<f12>~              |
+| *Toggle render view*                    | ~<f11>~                |
 
 | History           |       |
 |-------------------+-------|
 | Repeat last       | ~g~     |
-| Undo              | ~C-z~   |
-| Redo              | ~C-S-z~ |
-| Show undo history | ~C-M-z~ |
+| *Undo*              | ~C-z~   |
+| *Redo*              | ~C-S-z~ |
+| *Show undo history* | ~C-M-z~ |
 
 -----
 
@@ -172,22 +175,22 @@ Right click to cancel operations.
 | end of buffer            | ~S-M->~               |
 | start of buffer          | ~S-M-<~               |
 | Select line              | ~C-S-l~               |
-| Control size of text     | ~C-<mousewheel>~      |
-| Run script               | ~M-p~                 |
+| *Control size of text*     | ~C-<mousewheel>~      |
+| *Run script*               | ~M-p~                 |
 | /Run script in pyconsole*/ | ~S-M-p~               |
 | /Editor switch buffer*/    | ~M-x~                 |
-| Jump                     | ~C-j~                 |
+| *Jump*                     | ~C-j~                 |
 | Find                     | ~C-S-M-f~             |
 | Find next                | ~C-s~                 |
 | Replace                  | ~C-r~                 |
-| Autocomplete             | ~C-<space>~           |
+| *Autocomplete*             | ~C-<space>~           |
 | Cut (kill)               | ~C-w~                 |
 | Copy                     | ~M-w~                 |
 | Paste (yank)             | ~C-y~                 |
-| Save                     | ~M-s~                 |
-| Save as                  | ~C-S-M-s~             |
 | Comment                  | ~M-;~                 |
 | Uncomment                | ~S-M-;~               |
+| *Save*                     | ~M-s~                 |
+| *Save as*                  | ~C-S-M-s~             |
 
 ** Bound addons
 Sadly a lot of addons bind things for you which interferes with the keyconfig, so I have to unbind them manually and save user settings. If you know of a better way to do it please let me know.
