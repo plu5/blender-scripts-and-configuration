@@ -45,14 +45,14 @@ Bindings that are the same as default are *bold*.
 | Textured                     |   ~6~ |
 | Rendered                     |   ~7~ |
 
-| Selection                  |                    |
-|----------------------------+--------------------|
-| Select                     | ~<LeftMouse>~        |
-| Deselect                   | ~C-<LeftMouse>~      |
-| Toggle selected/deselected | ~S-<LeftMouse>~      |
-| Border select              | ~<LeftMouse>~ drag   |
-| Lasso select               | ~<MiddleMouse>~ drag |
-| Circle select              | ~S-q~                |
+| Selection               |                    |
+|-------------------------+--------------------|
+| Select                  | ~<LeftMouse>~        |
+| Deselect                | ~C-<LeftMouse>~      |
+| Toggle / extend select  | ~S-<LeftMouse>~      |
+| Border select           | ~<LeftMouse>~ drag   |
+| Lasso select            | ~<MiddleMouse>~ drag |
+| Circle select           | ~S-q~                |
 
 | Snapping                   |           |
 |----------------------------+-----------|
@@ -81,7 +81,7 @@ Bindings that are the same as default are *bold*.
 | *Set origin*                         | ~C-S-M-c~                                    |
 | Apply call menu                    | ~C-M-a~                                      |
 | *Toggle proportional editing*        | ~o~                                          |
-# this is actually slightly different, factory uses context_toggle rather than context_toggle_enum   
+# this is actually slightly different, factory uses context_toggle rather than context_toggle_enum
 
 Right click to cancel operations.
 
@@ -127,6 +127,16 @@ Right click to cancel operations.
 | Specials call menu                  | ~C-<RightMouse>~                          |
 | /Select mode pie menu*/               | ~<RightMouse>~                            |
 | *Loop cut and slide* (add edge loops) | ~C-r~                                     |
+| Loop select                         | ~<DoubleLeftMouse>~                       |
+| Loop select extend                  | ~S-<DoubleLeftMouse>~                     |
+| Loop deselect                       | ~C-<DoubleLeftMouse>~                     |
+| Edge ring select                    | ~M-<DoubleLeftMouse>~                     |
+| Edge ring select toggle / extend    | ~S-M-<DoubleLeftMouse>~                   |
+| Edge ring deselect                  | ~C-M-<DoubleLeftMouse>~                   |
+| Pick shortest path                  | ~M-<DoubleMiddleMouse>~                   |
+| Pick shortest path fill region      | ~M-S-<DoubleMiddleMouse>~                 |
+# “The Select Shortest Edge Path Tool is particularly well suited to selecting a long and possibly winding path of edges on a surface mesh when you need to subsequently perform a Cut UV Edges operation when Unfolding UV shells.”
+# bevel, poke, inset? -- they are available in the face call menu C-f
 
 -----
 =Window=
@@ -164,7 +174,6 @@ Right click to cancel operations.
 | *Show undo history* | ~C-M-z~ |
 
 -----
-
 =Text=
 | Text Editor              |                     |
 |--------------------------+---------------------|
