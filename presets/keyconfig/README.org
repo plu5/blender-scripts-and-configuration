@@ -2,6 +2,7 @@
 #+begin_html
 <p>
 <kbd>C</kbd> = <kbd>Ctrl</kbd>; <kbd>M</kbd> = <kbd>Alt</kbd>; <kbd>S</kbd> = <kbd>Shift</kbd>
+<br/><kbd>LeftMouse refers to SELECTMOUSE, RightMouse refers to ACTIONMOUSE</kbd>
 </p>
 #+end_html
 
@@ -226,6 +227,19 @@ Right click to cancel operations.
 | Play / pause       | ~M-v~                              |
 | Go to min frame    | ~S-M-v~                            |
 | Insert keyframe    | ~s~                                |
+
+-----
+=Mask Editing=
+| Mask Editing                    |                |
+|---------------------------------+----------------|
+| Border, lasso and circle select | as normal      |
+| *Move vertices and curvatures*    | ~<RightMouse>~   |
+| *Add vertex slide*                | ~C-<RightMouse>~ |
+| *Add feather vertex slide*        | ~S-<RightMouse>~ |
+| Move, rotate, scale             | ~w~, ~e~, ~r~        |
+| Transform (shrink / fatten)     | ~C-M-s~          |
+| Add shape key                   | ~s~              |
+| Clear shape key                 | ~M-s~            |
 
 ** Bound addons
 Sadly a lot of addons bind things for you which interferes with the keyconfig, so I have to unbind them manually and save user settings. If you know of a better way to do it please let me know.
