@@ -89,10 +89,11 @@ Right click to cancel operations.
 =3D View > Object Mode=
 | Object Mode                           |       |
 |---------------------------------------+-------|
+| Hide selected                         | ~C-h~   |
+| Hide unselected                       | ~M-h~   |
 | Clear restrict view (show everything) | ~C-S-h~ |
-| Set restrict view (hide selected)     | ~C-h~   |
-| Set restrict view (hide unselected)   | ~M-h~   |
-| *Join objects* (merge objects)          | ~C-j~   |
+| Local view (isolates selected)        | ~S-i~   |
+| *Join objects* (combine objects)        | ~C-j~   |
 | Duplicate objects                     | ~C-d~   |
 | *Duplicate linked*                      | ~M-d~   |
 | *Call menu: Convert to*                 | ~M-c~   |
