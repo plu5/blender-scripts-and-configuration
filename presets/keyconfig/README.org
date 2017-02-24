@@ -62,11 +62,15 @@ Bindings that are the same as default are *bold*.
 | *Snap to smaller increments* | hold ~C-S~  |
 | /Snap pie menu*/             | ~C-S-<tab>~ |
 
-| Misc                 |                   |
-|----------------------+-------------------|
-| /MultiEdit enter*/     | ~<f8>~              |
-| /MultiEdit exit*/      | ~M-<f8>~            |
-| /Enhanced Set Cursor*/ | ~<mouse5>~ or ~<f10>~ |
+| Misc                      |                   |
+|---------------------------+-------------------|
+| *Toggle object / edit mode* | ~<tab>~             |
+| *Toggle weight paint mode*  | ~C-<tab>~           |
+| /Select mode pie menu*/     | ~<RightMouse>~ or ~`~ |
+| /Pivot pie menu*/           | ~<insert>~ or ~d~     |
+| /MultiEdit enter*/          | ~<f8>~              |
+| /MultiEdit exit*/           | ~M-<f8>~            |
+| /Enhanced Set Cursor*/      | ~<mouse5>~ or ~<f10>~ |
 
 | Transformations                    |                                            |
 |------------------------------------+--------------------------------------------|
@@ -202,10 +206,20 @@ Right click to cancel operations.
 | *Save*                     | ~M-s~                 |
 | *Save as*                  | ~C-S-M-s~             |
 
+-----
+=Frames=
+| Animation          |                                  |
+|--------------------+----------------------------------|
+| Stepping frames    | ~←~ ~→~ or ~M-,~ ~M-.~ or ~<M-MouseWheel>~ |
+| Stepping keyframes | ~↑~ ~↓~ or ~,~ ~.~                       |
+| Play / pause       | ~M-v~                              |
+| Go to min frame    | ~S-M-v~                            |
+| Insert keyframe    | ~s~                                |
+
 ** Bound addons
 Sadly a lot of addons bind things for you which interferes with the keyconfig, so I have to unbind them manually and save user settings. If you know of a better way to do it please let me know.
 *** Included with blender
-- UI Pie Menu Official (unbind the bindings it adds on ~Tab~ and ~Q~: =3D View > Object Non-modal=)
+- UI Pie Menu Official (unbind the bindings it adds on ~Q~, ~.~ and ~Tab~: =3D View > Object Non-modal=)
 - Extra Objects
 - [[https://sites.google.com/site/bartiuscrouch/scripts/f2][f2]] (unbind the binding it adds: =3D View > Mesh > Make Edge/Face= that it binds to ~F~)
 *** 3rd party
