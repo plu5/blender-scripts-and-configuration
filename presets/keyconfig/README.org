@@ -35,6 +35,7 @@ Bindings that are the same as default are *bold*.
 | /Pie menu views*/                         | ~M-`~                      |
 | *Align camera to view*                    | ~C-M-<numpad 0>~           |
 | Toggle lock camera to view              | ~S-c~                      |
+| Set render border                       | ~C-b~                      |
 
 | Shading                      |     |
 |------------------------------+-----|
@@ -111,26 +112,32 @@ Right click to cancel operations.
 | *Remove selected from active group* | ~S-M-g~   |
 | *Remove from all groups*            | ~C-S-M-g~ |
 
+| Parenting |     |
+|-----------+-----|
+| *Parent*    | ~C-p~ |
+| *Unparent*  | ~M-p~ |
+
 | Misc                           |         |
 |--------------------------------+---------|
 | *Add call menu*                  | ~S-a~     |
 | *Make single user call menu*     | ~u~       |
 | *Make links call menu*           | ~C-l~     |
 | Toggle subdivisions (modifier) | ~1~, ~2~, ~3~ |
+# Make S-p unparent like maya?
 
 -----
 =3D View > Mesh=
 | Edit Mode                           |                                         |
 |-------------------------------------+-----------------------------------------|
+| /Select mode pie menu*/               | ~<RightMouse>~                            |
+| *Face, edge, vertex call menus*       | ~C-f~, ~C-e~, ~C-v~                           |
+| Specials call menu                  | ~C-<RightMouse>~                          |
 | /f2*/                                 | ~M-f~                                     |
 | Extrude                             | ~M-x~                                     |
 | Duplicate or extrude to cursor      | ~C-<MiddleMouse>~                         |
 | *Merge*                               | ~M-m~                                     |
 | Knife topology tool                 | ~K-<LeftMouse>~                           |
 |                                     | press c to constrain to a straight line |
-| *Face, edge, vertex call menus*       | ~C-f~, ~C-e~, ~C-v~                           |
-| Specials call menu                  | ~C-<RightMouse>~                          |
-| /Select mode pie menu*/               | ~<RightMouse>~                            |
 | *Loop cut and slide* (add edge loops) | ~C-r~                                     |
 | Loop select                         | ~<DoubleLeftMouse>~                       |
 | Loop select extend                  | ~S-<DoubleLeftMouse>~                     |
@@ -163,6 +170,7 @@ Right click to cancel operations.
 | *Show user preferences*                 | ~C-M-u~                |
 | *Next / previous layout*                | ~C-<left>~ / ~C-<right>~ |
 | /Layout search*/                        | ~M-<f1>~               |
+| Toggle maximise area                  | ~S-<space>~            |
 | Toggle quad view                      | ~<space>~              |
 | Toggle sync side views (in quad view) | ~C-S-<space>~          |
 | Toggle console                        | ~M-<f2>~               |
@@ -177,6 +185,9 @@ Right click to cancel operations.
 | *Undo*              | ~C-z~   |
 | *Redo*              | ~C-S-z~ |
 | *Show undo history* | ~C-M-z~ |
+# consider changing the hotkeys to better match maya
+# undo = z or C-z
+# redo = S-z
 
 -----
 =Text=
