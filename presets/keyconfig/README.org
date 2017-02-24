@@ -63,6 +63,9 @@ Bindings that are the same as default are *bold*.
 |                            | hold ~Ctrl~ |
 | *Snap to smaller increments* | hold ~C-S~  |
 | /Snap pie menu*/             | ~C-S-<tab>~ |
+| Set snap to INCREMENT      | ~x~         |
+| Set snap to EDGE           | ~c~         |
+| Set snap to VERTEX         | ~v~         |
 
 | Misc                      |                   |
 |---------------------------+-------------------|
