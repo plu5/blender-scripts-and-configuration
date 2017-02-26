@@ -24,11 +24,12 @@ Bindings that are the same as default are *bold*.
 | View selected (Focus on selected)       | ~f~                        |
 | *Front view*                              | ~<numpad 1>~               |
 | *Back view*                               | ~C-<numpad 1>~             |
-| *Left view*                               | ~<numpad 3>~               |
-| *Right view*                              | ~C-<numpad 3>~             |
+| *Right view*                              | ~<numpad 3>~               |
+| *Left view*                               | ~C-<numpad 3>~             |
 | *Top view*                                | ~<numpad 7>~               |
 | *Bottom view*                             | ~C-<numpad 7>~             |
 | *Align view to active front/back/left...* | Shift + any of the views |
+| (align to the active object’s axis)     |                          |
 | *Camera view*                             | ~<numpad 0>~               |
 | *Set active object as camera*             | ~C-<numpad 0>~             |
 | (useful if you have multiple cameras)   |                          |
