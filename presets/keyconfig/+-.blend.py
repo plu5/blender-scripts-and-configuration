@@ -367,6 +367,7 @@ kmi = km.keymap_items.new('wm.context_toggle_enum', 'O', 'PRESS', alt=True)
 kmi_props_setattr(kmi.properties, 'data_path', 'tool_settings.proportional_edit')
 kmi_props_setattr(kmi.properties, 'value_1', 'DISABLED')
 kmi_props_setattr(kmi.properties, 'value_2', 'CONNECTED')
+kmi = km.keymap_items.new('curve.normals_make_consistent', 'N', 'PRESS', ctrl=True)
 
 # Map Sculpt
 km = kc.keymaps.new('Sculpt', space_type='EMPTY', region_type='WINDOW', modal=False)
@@ -558,6 +559,10 @@ kmi = km.keymap_items.new('mesh.vert_connect', 'J', 'PRESS')
 kmi = km.keymap_items.new('mesh.snap_utilities_line_lite', 'BUTTON5MOUSE', 'PRESS', key_modifier='K')
 kmi = km.keymap_items.new('mesh.merge', 'BUTTON4MOUSE', 'PRESS', alt=True)
 kmi_props_setattr(kmi.properties, 'type', 'CENTER')
+kmi = km.keymap_items.new('mesh.normals_make_consistent', 'N', 'PRESS', ctrl=True)
+kmi_props_setattr(kmi.properties, 'inside', False)
+kmi = km.keymap_items.new('mesh.normals_make_consistent', 'N', 'PRESS', shift=True, ctrl=True)
+kmi_props_setattr(kmi.properties, 'inside', True)
 
 # Map Armature
 km = kc.keymaps.new('Armature', space_type='EMPTY', region_type='WINDOW', modal=False)

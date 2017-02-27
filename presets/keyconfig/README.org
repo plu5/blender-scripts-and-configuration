@@ -152,6 +152,8 @@ Right click to cancel operations.
 | Edge ring deselect                  | ~C-M-<DoubleLeftMouse>~                   |
 | Pick shortest path                  | ~M-<DoubleMiddleMouse>~                   |
 | Pick shortest path fill region      | ~M-S-<DoubleMiddleMouse>~                 |
+| *Recalc normals (outside)*            | ~C-n~                                     |
+| *Recalc normals (inside)*             | ~C-S-n~                                   |
 # “The Select Shortest Edge Path Tool is particularly well suited to selecting a long and possibly winding path of edges on a surface mesh when you need to subsequently perform a Cut UV Edges operation when Unfolding UV shells.”
 # bevel, poke, inset? -- they are available in the face call menu C-f
 
